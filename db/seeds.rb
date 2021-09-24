@@ -1,7 +1,5 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Restaurant.create(name: "Mangia", description: "awesome place to eat", city: "New Jersey", star_rating: 5, cuisine: "Italian")
+Restaurant.create(name: "Roots", description: "fine dining", city: "Norristown", star_rating: 3, cuisine: "Everything")
+Restaurant.create(name: "Mino", description: "best sushi ever", city: "Philly", star_rating: 5, cuisine: "Asian")
+Restaurant.create(name: "Pats & Ginos", description: "great cheesesteaks", city: "Philly", star_rating: 4, cuisine: "Steaks")
+Restaurant.create(name: "El Meson", description: "pretty good food", city: "New Jersey", star_rating: 2, cuisine: "Mexican")

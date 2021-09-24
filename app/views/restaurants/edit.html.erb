@@ -1,0 +1,19 @@
+<%= form_for @restaurant do |form| %>
+<label>Restaurant Name:</label><br>
+  <%= form.text_field :name %><br>
+
+  <label>Restaurant Description:</label><br>
+  <%= form.text_area :description %><br>
+
+  <label>Restaurant City:</label><br>
+  <%= form.text_field :city %><br>
+
+  <label>Restaurant Rating:</label><br>
+  <%= form.text_field :star_rating %><br>
+
+  <label>Restaurant Type:</label><br>
+  <%= form.text_field :cuisine %><br>
+
+  <%= form.submit %>
+<% end %>
+<button><%= link_to "HomePage", restaurants_path(@restaurant) %></button>
